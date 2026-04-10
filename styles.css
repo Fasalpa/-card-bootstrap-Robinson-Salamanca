@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+body {
+  background-color: #ececec !important;
+}
+
+.card {
+  background-color: rgb(241, 243, 226);
+    border: none !important;
+    box-shadow: 0 4px 150px rgba(0, 0, 0, 0.05);
+}
+.text-primary {
+  color: #32af26 !important;
+}
+
+.card-subtitle {
+  color: rgb(49, 85, 87);
+}
+
+.d-grid {
+  display: grid !important;
+  grid-auto-flow: column;
+}
+
+.btn-outline-primary {
+  color: black;
+  border-color: azure;
+  background-color: #ffffff;
+  transition: all 1s ease;
+  border: outset 3px #30cf22;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(94, 197, 94);
+  border-color: azure;
+}
+
+.btn-primary {
+  background-color: #79c965;
+  border-color: #54b940;
+  border: outset 3px #30cf22;
+}
+.btn-primary:hover {
+  background-color: #ffffff !important; /* El color arena que vimos antes */
+  color: #41b95b !important;
+  transition: all 1s ease;
+  border-color: #41b95b;
+}
